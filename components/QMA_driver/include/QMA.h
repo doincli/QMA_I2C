@@ -4,8 +4,6 @@
 #include "sdkconfig.h"
 #include <string.h>
 
-#define QMA7981_ADDR  0x12
-#define MASTER_BUFF_LEN 8
 #define I2C_MASTER_SCL_IO 8                                   /*!< gpio number for I2C master clock */
 #define I2C_MASTER_SDA_IO 2                                   /*!< gpio number for I2C master data  */
 #define I2C_MASTER_NUM 0                                      /*!< I2C port number for master dev */
@@ -13,6 +11,7 @@
 #define I2C_MASTER_TX_BUF_DISABLE 0                           /*!< I2C master doesn't need buffer */
 #define I2C_MASTER_RX_BUF_DISABLE 0                           /*!< I2C master doesn't need buffer */
 
+#define QMA7981_ADDR  0x12
 #define QMA7981_DEVICE_ADDR           0x00 
 #define QMA7981_MAX_VALUE 0x3FFF							   /*!< QMA7981 range */
 
